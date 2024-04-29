@@ -12,5 +12,5 @@ COPY . /usr/src/app
 
 ENV NODE_ENV=development
 
-EXPOSE 3000
+EXPOSE 8081
 CMD [ "bun", "run", "index.ts" ]
